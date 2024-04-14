@@ -62,7 +62,7 @@ input:active{
 }
 
 
-#help_1{
+#help-text-1{
     visibility: hidden;
     width: 150px;
     background-color:#4c5d6b;
@@ -75,7 +75,7 @@ input:active{
     top: 45px;
     font-weight: 300;
 }
-#help_2{
+#help-text-2{
     visibility: hidden;
     width: 150px;
     background-color:#4c5d6b;
@@ -89,7 +89,7 @@ input:active{
     font-weight: 300;
 }
 
-#help_3{
+#help-text-3{
     visibility: hidden;
     width: 150px;
     background-color:#4c5d6b;
@@ -103,7 +103,7 @@ input:active{
     font-weight: 300;
 }
 
-#help_4{
+#help-text-4{
     visibility: hidden;
     width: 150px;
     background-color:#4c5d6b;
@@ -117,7 +117,7 @@ input:active{
     font-weight: 300;
 }
 
-.span_1{
+.ip-1{
     display: flex;
     flex-direction: row;
     margin: 8px 0;
@@ -132,7 +132,7 @@ input:active{
     visibility: hidden;
 }
 
-.span_2{
+.ip-2{
     display: flex;
     flex-direction: row;
     margin: 8px 0;
@@ -147,7 +147,7 @@ input:active{
     visibility: hidden;
 }
 
-.span_3{
+.ip-3{
     display: flex;
     flex-direction: row;
     margin: 8px 0;
@@ -162,7 +162,7 @@ input:active{
     visibility: hidden;
 }
 
-.span_4{
+.ip-4{
     display: flex;
     flex-direction: row;
     margin: 8px 0;
@@ -187,6 +187,7 @@ input:active{
     position: absolute;
     font-size: 13px;
     top: 205px;
+    margin-left: 10px;
     background-color: rgb(225, 56, 56);
     text-align: center;
     color: #fff;
@@ -199,6 +200,7 @@ input:active{
     position: absolute;
     font-size: 13px;
     top: 280px;
+    margin-left: 10px;
     background-color: rgb(225, 56, 56);
     text-align: center;
     color: #fff;
@@ -211,6 +213,7 @@ input:active{
     position: absolute;
     font-size: 13px;
     top: 360px;
+    margin-left: 10px;
     background-color:rgb(225, 56, 56);
     text-align: center;
     color: #fff;
@@ -223,11 +226,13 @@ input:active{
     position: absolute;
     font-size: 13px;
     top: 440px;
+    margin-left: 10px;
     background-color:rgb(225, 56, 56);
     text-align: center;
     color: #fff;
     visibility: hidden;
 }
+
 #result{
     font-size:35px;
 }
