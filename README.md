@@ -42,6 +42,7 @@ This is a simple tax calculator web application that helps users calculate their
 - **index.html:** Contains the HTML structure of the web page.
 - **TaxCalculator.css:** Contains the CSS styles for the web page elements.
 - **TaxCalculator.js:** Contains the JavaScript code for implementing functionality.
-
+## For Live Preview
+- **Go To:** https://bhavyasree16.github.io/TaxCalculator/
 
 
