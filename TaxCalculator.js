@@ -1,4 +1,4 @@
-// Tool tip box 1
+
 document.getElementById('help-1').addEventListener("mouseover",()=>{
     const element = document.getElementById('help-text-1') ;
     element.style.visibility = "visible" ;
@@ -8,7 +8,7 @@ document.getElementById('help-1').addEventListener("mouseleave",()=>{
     element.style.visibility = "hidden" ;
 });
 
-// Tool tip box 2
+
 document.getElementById('help-2').addEventListener("mouseover",()=>{
     const element = document.getElementById('help-text-2') ;
     element.style.visibility = "visible" ;
@@ -17,7 +17,7 @@ document.getElementById('help-2').addEventListener("mouseover",()=>{
      const element = document.getElementById('help-text-2') ;
      element.style.visibility = "hidden" ;
  });
-// Tool tip box 3
+
 document.getElementById('help-3').addEventListener("mouseover",()=>{
     const element = document.getElementById('help-text-3') ;
     element.style.visibility = "visible" ;
@@ -27,7 +27,7 @@ document.getElementById('help-3').addEventListener("mouseleave",()=>{
     element.style.visibility = "hidden" ;
 });
 
-// Tool tip box 4
+
 document.getElementById('help-4').addEventListener("mouseover",()=>{
     const element = document.getElementById('help-text-4') ;
     element.style.visibility = "visible" ;
@@ -88,7 +88,7 @@ function validate_4(){
         document.getElementById('error-4').style.visibility = "hidden" ;
     }
 }
-// Error tool tip 1
+
 
 document.getElementById('error-1').addEventListener("mouseover",()=>{
     document.getElementById('error-1-text').style.visibility = "visible" ;
@@ -97,7 +97,7 @@ document.getElementById('error-1').addEventListener("mouseout",()=>{
     document.getElementById('error-1-text').style.visibility = "hidden" ;
 });
 
-// Error tool tip 2
+
 
 document.getElementById('error-2').addEventListener("mouseover",()=>{
     document.getElementById('error-2-text').style.visibility = "visible" ;
@@ -106,7 +106,7 @@ document.getElementById('error-2').addEventListener("mouseout",()=>{
     document.getElementById('error-2-text').style.visibility = "hidden" ;
 });
 
-// Error tool tip 3
+
 
 document.getElementById('error-3').addEventListener("mouseover",()=>{
     document.getElementById('error-3-text').style.visibility = "visible" ;
@@ -115,7 +115,7 @@ document.getElementById('error-3').addEventListener("mouseout",()=>{
     document.getElementById('error-3-text').style.visibility = "hidden" ;
 });
 
-// Error tool tip 4
+
 
 document.getElementById('error-4').addEventListener("mouseover",()=>{
     document.getElementById('error-4-text').style.visibility = "visible" ;
@@ -125,7 +125,7 @@ document.getElementById('error-4').addEventListener("mouseout",()=>{
 });
 
 
-// Calculate Tax
+
 
 function Calculate_Tax(){
     let grossAmt = document.getElementById('grossAmt').value ;
