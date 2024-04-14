@@ -15,8 +15,8 @@
 <body style="background-color: #875DD5;">
     <div class="form" style="background-color: #EFE5FF;">
         <h2>Tax Calculator</h2>
-        <label for="gross-income">Enter gross annual income <span class="material-symbols-rounded help-icon" id="help-1">help</span> <span id="help_1">Gross annual income is your total salary in a year before any deductions</span></label>
-        <div class="span_1">
+        <label for="gross-income">Enter gross annual income <span class="material-symbols-rounded help-icon" id="help-1">help</span> <span id="help-text-1">Gross annual income is your total salary in a year before any deductions</span></label>
+        <div class="ip-1">
             <input type="text" name="gross-income" placeholder="Enter gross annual income" id="grossAmt" required>
             <div>
                 <span class="material-symbols-rounded" id="error-1">error</span>
@@ -24,8 +24,8 @@
             </div>
         </div>
 
-        <label for="extra-income">Enter extra income <span class="material-symbols-rounded help-icon" id="help-2">help</span><span id="help_2">Extra income is your total earnings in a year from other sources before any deductions</span></label>
-        <div class="span_2">
+        <label for="extra-income">Enter extra income <span class="material-symbols-rounded help-icon" id="help-2">help</span><span id="help-text-2">Extra income is your total earnings in a year from other sources before any deductions</span></label>
+        <div class="ip-2">
             <input type="text" name="extra-income" placeholder="Enter extra income from other sources" id="extraIncome"  required>
             <div>
                 <span class="material-symbols-rounded" id="error-2">error</span>
@@ -33,13 +33,13 @@
             </div>
         </div>
 
-        <label for="age">Enter age group <span class="material-symbols-rounded help-icon" id="help-3">help</span><span id="help_3">Specify the age from the given range</span></label>
+        <label for="age">Enter age group <span class="material-symbols-rounded help-icon" id="help-3">help</span><span id="help-text-3">Specify the age from the given range</span></label>
 
-        <div class="span_3">
+        <div class="ip-3">
             <select id="age" name="age"  required>
                 <option value="Select Age Group">Select Age Group</option>
-                <option value="<40">greater than 40</option>
-                <option value=">40&<60">greater than equal 40-60</option>
+                <option value="<40">less than 40</option>
+                <option value=">40&<60">greater than equal to 40-60</option>
                 <option value=">60">greater than equal to 60</option>
             </select>
             <div>
@@ -48,14 +48,15 @@
             </div>
         </div>
 
-        <label for="deductions">Enter total applicable deductions <span class="material-symbols-rounded help-icon" id="help-4">help</span><span id="help_4">Total deductions are the amount that is being deducted </span></label>
-        <div class="span_4">
+        <label for="deductions">Enter total applicable deductions <span class="material-symbols-rounded help-icon" id="help-4">help</span><span id="help-text-4">Total deductions are the amount that is being deducted </span></label>
+        <div class="ip-4">
             <input type="text" name="deductions" placeholder="Add total applicable deductions" id="deductAmt" required>
             <div>
                 <span class="material-symbols-rounded" id="error-4">error</span>
                 <span id="error-4-text">Please enter numbers only.</span>
             </div>
         </div>
+
 <!-- Button trigger modal -->
   <button type="button" id="submit" class="btn btn-primary">
     Submit
@@ -73,7 +74,7 @@
             </div>
             <div class="modal-body">
                 <section id="section">
-                    <h3 style="color:rgb(31, 28, 28);font-size:25px;">Your Overall income will be <br> <span id="result"></span> <br> after tax deductions</h3>
+                    <h3 style="color:rgb(31, 28, 28);font-size:25px;">Your Overall income will be <br><span id="result"></span><br> after tax deductions</h3>
                 </section>
             </div>
             <div class="modal-footer">
